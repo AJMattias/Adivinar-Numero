@@ -1,4 +1,4 @@
-package adivina.numero;
+package adivinaNumero;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class AdivinaNumero {
         
         System.out.println("El numero aleatorio es: " + numero);
         while (adivino == false) {
-
+            System.out.println("Ingresa un numero de 4 digitos");
             Scanner entradaScanner = new Scanner(System.in);
             numeroA = entradaScanner.nextInt();
             if (numeroA == numero) {
